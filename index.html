@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+
+
+  <main >
+
+    <form action="">
+      <fieldset style="background-color: red; ">
+        <legend style="background-color: blue; color:white;">Personal data</legend>
+
+
+        <!-- user information -->
+
+        <fieldset style="background-color: yellow; padding-top:40px">
+          <legend style="background-color: aqua; padding:20px">YourName</legend>
+
+          <table>
+            <tr>
+              <td><label for="fname">FirstName :</label></td>
+              <td><input required type="text" name="fname" id="fname" placeholder="ex.Ahmed"></td>
+            </tr>
+            <tr>
+              <td><label for="Sname">Second Name :</label></td>
+              <td><input required type="text" name="Sname" id="Sname" placeholder="ex.Yassin"></td>
+            </tr>
+          </table>
+        </fieldset>
+        </div>
+        <!-- email & password -->
+        <div style="padding: 30px ;">
+          <table>
+            <tr>
+              <td><label for="phone">YourPhone :</label></td>
+              <td><input required type="tel" name="phone" id="phone"></td>
+            </tr>
+            <tr>
+              <td><label for="email">Email :</label></td>
+              <td><input required type="email" name="email" id="email" placeholder="ex.ahmedyassin@gmail.com"></td>
+            </tr>
+            <tr>
+              <td><label for="password">Password :</label></td>
+              <td><input required type="password" name="password" id="password"></td>
+            </tr>
+            <tr>
+              <td><label for="re-password">re-Password :</label></td>
+              <td><input required type="password" name="re-password" id="re-password"></td>
+            </tr>
+
+          </table>
+          <!-- radio -->
+          <div>
+            <form action="">
+              <div>
+                <input type="radio" id="male" name="gender" value="male" checked />
+                <label for="male">male</label>
+              </div>
+
+              <div>
+                <input type="radio" id="female" name="gender" value="female" />
+                <label for="female">Female</label>
+              </div>
+
+
+            </form>
+
+          </div>
+
+          <!-- checkbox -->
+          <div style="padding-top:30px;">
+            <input type="checkbox" id="student" name="student" value="Student" checked>
+            <label for="student"> Student</label><br>
+            <input type="checkbox" id="grad" name="grad" value="Graduated">
+            <label for="grad"> Graduated</label><br>
+          </div>
+
+        </div>
+
+        <!-- select -->
+        <div style="padding: 30px;">
+
+          <label for="Options">Groups :</label>
+          <select name="Options" id="Options">
+
+            <optgroup label="Group 1">
+              <option value="1.1">Option 1.1</option>
+            </optgroup>
+            <optgroup label="Group 2">
+              <option value="2.1">Option 2.1</option>
+              <option value="2.2">Option 2.2</option>
+            </optgroup>
+            <optgroup label="Group 3" disabled>
+              <option value="3.1">Option 3.1</option>
+              <option value="3.2">Option 3.2</option>
+              <option value="3.3">Option 3.3</option>
+            </optgroup>
+          </select>
+          <br>
+          <input style="margin: 30px;" type="submit" name="submit" value="Submit">
+
+      </fieldset>
+    </form>
+  </main>
+</body>
+
+</html>
